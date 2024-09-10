@@ -8,19 +8,23 @@
 <body>
     <h1>Login</h1>
     <form action="actionPessoa.php" method="post">
-
-        <label for="usuarioPessoa">Usuário:</label><br>
-        <input name="usuarioPessoa" type="next" size="30" required><br><br>
-        
-        <label for="senhaPessoa">Senha:</label><br>
-        <input name="senhaPessoa" type="password" required><br><br>
-        
+        <p>
+        <label for="usuario_login">Usuário:</label>
+        <input name="usuario_login" type="next" size="30"/>
+        </p>
+        <p>
+        <label for="senha_login">Senha:</label>
+        <input id="senha_login" type="password"/>
+         </p>
+         <p>
        <label>
         <input type="checkbox" name="manterlogado" value="sim" /> Manter Logado
        </label>
-             
+        </p> 
 
-        <input name="btLogin" type="submit" value="Login"><br><br>
+        <p> <button type="submit">Login</button></p>
+        <p> <a href="#URL">Ainda não tem conta?</a> </p>
+        <p> <a href="#URL">Esqueceu a senha?</a> </p>
 
 
 </body>
