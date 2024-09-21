@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação 3</title>
+</head>
+<body>
+    
+     <form method="post" action="#">
+            <h1>Formulário Cadastro Animal</h1>
+        <fieldset>
 
+               <legend>Informações do Dono</legend>
+
+               <label for="nomePessoa">Nome:</label>
+               <input name="nomePessoa" type="next" required><br><br>
+
+               
+               <label for="emailPessoa">E-mail do Dono :</label>
+               <input name="emailPessoa" type="email" required><br><br>
+
+
+               
+               <label for="telefonePessoa">Telefone do Dono:</label>
+               <input name="TelefonePessoa" type="text" placeholder="(00)00000-0000" maxlength="11" required><br><br>
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Informações do Animal</legend>
+
+                <label for="nomeAnimal">Nome do Animal:</label>
+               <input name="nomeAnimal" type="next" required><br><br>
+
+               <label for="especieAnimal">Espécie</label>
+               <select name="especieAnimal" required>
+                   <option value="cao">Cão</option>
+                   <option value="gato">Gato</option>
+                   <option value="ave">Ave</option>
+                   <option value="outro">Outro</option>                  
+               </select><br><br>
+
+               <label for="racaAnimal">Raça:</label>
+               <input name="racaAnimal" type="next" required><br><br>
+               
+               <label for="idadeAnimal">Idade:</label>
+               <input name="idadeAnimal" type="next" required><br><br>
+               
+
+
+                <label for="fotoAnimal"> Foto do Animal:</label><br>
+                <input name="fotoAnimal" type="file" required><br><br>
+              
+            </fieldset>
+            <h1>Histórico de Saúde Animal </h1>
+            <fieldset>
+               
+                <legend>Vacinas</legend>
+
+                <input name="vacinacontraraiva" type="checkbox">
+                <label for="vacinacontraraiva">Vacina contra Raiva </label><br>
+
+                <input name="vacinav10" type="checkbox">
+                <label for="vacinav10">Vacina V10</label><br>
+
+                <input name="vacinacontragripe" type="checkbox">               
+                <label for="vacinacontragripe">Vacina contra Gripe</label><br>
+
+                <input name="outras" type="checkbox">
+                <label for="outras">Outras Vacinas</label><br><br>
+
+            </fieldset><br>
+
+
+
+            <input name="btLimpar" type="reset" value="Limpar Dados"><br><br>
+
+            <input name="btCadastrar" type="submit" value="Cadastrar"><br><br>
+
+     </form>
+
+</body>
+</html>
